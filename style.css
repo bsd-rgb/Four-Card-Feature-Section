@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fafafa;
+  color: #4d4f62;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.header-features {
+  font-size: 3.6rem;
+  line-height: 1.4;
+  letter-spacing: 0.25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.subheading {
+  font-weight: 200;
+}
+
+.heading-secondary {
+  font-weight: 500;
+}
+
+.heading-text {
+  font-size: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.feature-card {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 10px 12px 0 rgba(84, 158, 242, 0.15);
+}
+
+.feature-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-bottom: 2rem;
+}
+
+.feature-heading {
+  /* display:block; */
+  font-size: 2rem;
+  line-height: 1.35;
+  font-weight: 600;
+  /* padding-bottom: 0.8rem; */
+}
+
+.feature-text {
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.feature-img {
+  align-self: flex-end;
+}
+
+/*******************/
+/* GENERAL */
+/*******************/
+
+.border--cyan {
+  border-top: 3px solid #44d3d2;
+}
+
+.border--blue {
+  border-top: 3px solid #549ef2;
+}
+.border--orange {
+  border-top: 3px solid #fcae4a;
+}
+.border--red {
+  border-top: 3px solid #ea5454;
+}
