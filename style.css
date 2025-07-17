@@ -83,7 +83,7 @@ body {
 .feature-card-content {
   display: flex;
   flex-direction: column;
-  gap: 1.2rem;
+  gap: 1.6rem;
   padding-bottom: 2rem;
 }
 
@@ -128,7 +128,13 @@ body {
 @media (max-width: 55em) {
   .grid {
     grid-template-columns: 1fr 1fr;
-    grid-gap: 5px;
+    gap: 2rem;
+    max-width: 60rem;
+  }
+
+  .header-features {
+    max-width: 60rem;
+    padding: 0 4rem;
   }
 
   .feature-card:nth-child(1) {
@@ -136,11 +142,39 @@ body {
     grid-row: auto;
     align-self: center;
     height: auto;
+    width: 50%;
   }
 
   .feature-card:nth-child(4) {
     grid-row: 3;
-    grid-column: auto;
+    grid-column: 1 / -1;
     align-self: center;
+    width: 50%;
+  }
+}
+
+@media (max-width: 35em) {
+  .header-features {
+    max-width: 30rem;
+    padding: 0;
+  }
+
+  .heading-secondary,
+  .subheading {
+    font-size: 2.4rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 30rem;
+    gap: 2.6rem;
+  }
+
+  .feature-card {
+    width: 100% !important;
+  }
+
+  .feature-card:nth-child(4) {
+    grid-row: auto;
   }
 }
