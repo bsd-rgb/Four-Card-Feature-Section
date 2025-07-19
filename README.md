@@ -36,8 +36,8 @@ Mobile:
 
 ### Links
 
-- [Solution URL](https://your-solution-url.com)
-- [Live Site URL](https://your-live-site-url.com)
+- [Solution URL](https://github.com/bsd-rgb/Four-Card-Feature-Section)
+- [Live Site URL](https://bsd-rgb.github.io/Four-Card-Feature-Section/)
 
 ## My process
 
